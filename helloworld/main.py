@@ -1,9 +1,6 @@
 import sys
 
-def main(argv=None):
-    if argv is None:
-        argv = sys.argv
+print("This line will be printed.")
 
-    print "Hello, world"
-
-    return 0
+    if __name__ == '__main__':
+  app.run()
