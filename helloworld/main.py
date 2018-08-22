@@ -1,6 +1,9 @@
-import sys
+from flask import Flask
+app = Flask(__name__)
 
-print("This line will be printed.")
+@app.route('/')
+def hello_world():
+  return 'Hello, World!'
 
-    if __name__ == '__main__':
+if __name__ == '__main__':
   app.run()
